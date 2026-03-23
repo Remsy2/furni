@@ -330,3 +330,113 @@ body {
   left: 32px;
   top: 48px;
 }
+
+/* WHY CHOOSE US */
+.choose__wrapper {
+  position: relative;
+  left: 178px;
+  bottom: -267px;
+}
+.choose__title {
+  width: 205px;
+  height: 123px;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: left;
+  color: #2f2f2f;
+  white-space: nowrap;
+}
+
+.choose__text {
+  width: 228px;
+  height: 108px;
+  font-size: 14px;
+
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6a6a6a;
+  white-space: nowrap;
+
+  position: relative;
+  left: 2px;
+  bottom: 55px;
+}
+
+.choose__list {
+  display: grid;
+  grid-template-columns: repeat(2, 216px);
+  gap: 42px 56px;
+  position: relative;
+  left: 179px;
+  bottom: -212px;
+}
+
+.choose__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose__icon {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 14px;
+}
+
+.choose__icon-bg {
+  width: 70%;
+  height: 70%;
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+
+.choose__icon-img {
+  position: absolute;
+  top: 41%;
+  left: 3%;
+  width: 66%;
+  height: 66%;
+}
+
+.choose__card-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2f2f2f;
+}
+
+.choose__card-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6a6a6a;
+}
+
+.choose__yellow-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 176px;
+  object-fit: contain;
+  width: 1765px;
+  bottom: 398px;
+  left: -27px;
+  z-index: 0;
+}
+
+.choose__photo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 601px;
+  left: 775px;
+  z-index: 1;
+  width: 551px;
+  height: 773.1px;
+  object-fit: contain;
+}
