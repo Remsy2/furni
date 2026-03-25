@@ -6,31 +6,37 @@
 
 body {
   font-family: "Inter", sans-serif;
-  width: 93.75rem;
-  height: 313.125rem;
+}
+
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
 }
 
 /* === HEADER TOP === */
 
 .header__top {
   position: relative;
-  margin: 0 0 151px;
-  padding: 24px 91px 157px 177px;
   background-color: #3b5d50;
-  height: 42.125rem;
+  padding-top: 24px;
 }
 
 .header__logo {
   width: 86px;
   height: 39px;
-  margin: 0 79px 134px 1px;
+  margin: 0;
   font-size: 2rem;
   font-weight: 500;
   text-align: left;
   color: #fff;
+  text-decoration: none;
 }
 .header__logo .text__style {
   color: rgba(255, 255, 255, 0.28);
+}
+
+.header__box {
+  display: flex;
 }
 
 .header__title {
@@ -68,7 +74,6 @@ body {
 .btn__primary {
   width: 150px;
   height: 50px;
-  margin: 4px 14px 0 -930px;
   padding: 11px 35px 11px 36px;
   border-radius: 30px;
   background-color: transparent;
@@ -109,17 +114,16 @@ body {
 }
 
 .navigation {
-  position: absolute;
-  top: 34px;
-  right: 180px;
-  width: 469px;
-  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 157px;
+  align-items: center;
 }
 
 .header__nav {
   display: flex;
   list-style: none;
-  gap: 2.75rem;
+  gap: 2.6875rem;
 }
 
 .header__nav a {
@@ -146,12 +150,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  height: 519.1px;
-  margin: 180px 180px 126px 75px;
   object-fit: contain;
-  width: 1410px;
-  bottom: 517px;
   z-index: 1;
   pointer-events: none;
 }
@@ -367,9 +366,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 216px);
   gap: 42px 56px;
-  position: relative;
-  left: 179px;
-  bottom: -212px;
 }
 
 .choose__card {

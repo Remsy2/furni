@@ -10,17 +10,10 @@
   <body>
     <!-- === HEADER TOP === -->
     <header class="header__top">
-      <span class="header__logo">
-        Furni<span class="text__style">.</span>
-      </span>
-      <h1 class="header__title">Modern Interior Design Studio</h1>
-
-      <div class="header__buttons">
-        <a href="#" class="btn btn__primary">Shop Now</a>
-        <a href="#" class="btn btn__secondary">Explore</a>
-      </div>
-
-      <nav class="navigation">
+      <nav class="navigation container">
+        <a class="header__logo" href="index.html">
+          Furni<span class="text__style">.</span>
+        </a>
         <ul class="header__nav">
           <li><a class="active" href="#">Home</a></li>
           <li><a href="#">about us</a></li>
@@ -30,8 +23,20 @@
         </ul>
       </nav>
 
-      <img class="header__couch" src="./img/couch.png" alt="green couch" />
-      <img class="dots" src="./img/dotts.png" alt="dots" />
+      <div class="header__box container">
+        <div class="header__box-left">
+          <h1 class="header__title">Modern Interior Design Studio</h1>
+          <div class="header__buttons">
+            <a href="#" class="btn btn__primary">Shop Now</a>
+            <a href="#" class="btn btn__secondary">Explore</a>
+          </div>
+        </div>
+
+        <div class="header__box-right">
+          <img class="header__couch" src="./img/couch.png" alt="green couch" />
+          <img class="dots" src="./img/dotts.png" alt="dots" />
+        </div>
+      </div>
     </header>
 
     <!-- === MAIN === -->
